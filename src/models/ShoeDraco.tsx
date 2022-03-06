@@ -170,7 +170,7 @@ const Model = ({ ...props }: JSX.IntrinsicElements["group"]) => {
     });
   });
 
-  const { nodes, materials } = useGLTF("/shoe-draco.glb") as GLTFResult;
+  const { nodes, materials } = useGLTF("/shoe-draco.glb") as any;
   return (
     <group ref={screenGroupRef}>
       <group ref={group} {...props} dispose={null}>

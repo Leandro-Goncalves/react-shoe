@@ -13,6 +13,7 @@
     "@react-three/drei": "^8.10.6",
     "@react-three/fiber": "^7.0.26",
     "@react-three/postprocessing": "^2.1.3",
+    "@types/three": "^0.138.0",
     "framer-motion": "^6.2.7",
     "next": "12.1.0",
     "polished": "^4.1.4",
