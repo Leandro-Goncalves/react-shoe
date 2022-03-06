@@ -25,6 +25,11 @@ const Subtitle = styled(motion.p)`
   font-size: 5rem;
   z-index: 2;
   color: "#fff";
+  text-align: center;
+
+  @media (max-width: 550px) {
+    font-size: 2rem;
+  }
 `;
 
 const Title = styled.p`
@@ -33,6 +38,10 @@ const Title = styled.p`
   color: rgba(0, 0, 0, 1);
   -webkit-text-stroke: 1px #fff;
   position: relative;
+
+  @media (max-width: 550px) {
+    font-size: 3rem;
+  }
 
   &:before {
     content: attr(data-text);
