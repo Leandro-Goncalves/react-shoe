@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React Shoe
 
-## Getting Started
+# Sobre o projeto
 
-First, run the development server:
+React Shoe é um projeto desenvolvido com o intuito de estudar a tecnologia [Three.js](https://threejs.org/) para objetos em 3d e [framer motion](https://www.framer.com/motion/) para animações 2d.
+
+# Layout
+
+<p align="center">
+  <img src="./.github/imgs/SiteMockup.png" alt="Mockup image"/>
+</p>
+
+# 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [framer-motion](https://www.framer.com/motion/)
+- [polished](https://polished.js.org/)
+- [react-confetti](https://www.npmjs.com/package/react-confetti)
+- [styled-components](https://styled-components.com/)
+- [zustand](https://github.com/pmndrs/zustand)
+
+# 🚀 Como executar o projeto
+
+## Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org)
+- [VSCode](https://code.visualstudio.com) ou outro editor de codigos
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone https://github.com/Leandro-Goncalves/react-shoe
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd react-shoe
+
+# Instale as dependências
+$ npm install
+# ou
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+# ou
+$ yarn dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Author
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Feito com ❤️ por Leandro Gonçalves [Entre em contato!](mailto:leandrogoncalvespr@hotmail.com)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<a href="https://github.com/Leandro-Goncalves/">
+  <img
+    width="150px"
+    src="https://github.com/Leandro-Goncalves.png"
+    alt=""
+  />
+ <br />
+ <sub><b>Leandro Gonçalves</b></sub></a>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
