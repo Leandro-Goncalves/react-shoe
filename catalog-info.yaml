@@ -2,6 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: react-shoe
+  description: an animated landing page, created with React and ThreeJs.
+  links: [
+    {
+      url: 'https://github.com/Leandro-Goncalves/react-shoe',
+      title: 'GitHub',
+      icon: 'github',
+      type: 'external',
+    }  
+  ]
   annotations:
     github.com/project-slug: Leandro-Goncalves/react-shoe
 spec:
