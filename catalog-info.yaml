@@ -13,6 +13,7 @@ metadata:
   ]
   annotations:
     github.com/project-slug: Leandro-Goncalves/react-shoe
+    backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
 spec:
   type: other
   lifecycle: unknown
