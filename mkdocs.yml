@@ -1,7 +1,9 @@
-site_name: 'example-docs'
+site_name: "example-docs"
 
 nav:
   - Home: index.md
+  - Tutorial:
+      - markdown: markdown.md
 
 plugins:
   - techdocs-core
