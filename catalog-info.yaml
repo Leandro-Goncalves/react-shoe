@@ -18,3 +18,5 @@ spec:
   type: website
   lifecycle: unknown
   owner: guests
+  providesApis:
+    - api-rentx
