@@ -15,6 +15,6 @@ metadata:
     github.com/project-slug: Leandro-Goncalves/react-shoe
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
+  type: website
   lifecycle: unknown
   owner: guests
