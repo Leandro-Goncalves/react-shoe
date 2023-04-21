@@ -13,7 +13,7 @@ metadata:
   ]
   annotations:
     github.com/project-slug: Leandro-Goncalves/react-shoe
-    backstage.io/techdocs-ref: seiLa
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
