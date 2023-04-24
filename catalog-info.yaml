@@ -17,6 +17,6 @@ metadata:
 spec:
   type: website
   lifecycle: unknown
-  owner: guests
+  owner: lets-eat
   providesApis:
     - api-rentx
